@@ -22,7 +22,10 @@ ListNode* removeElements(ListNode* head, int val) {
 	//寻找到第一个不是val的节点，这个节点的地址是返回值
 	while (head != nullptr && head->val == val)
 	{
+		ListNode* temp = head;
 		head = head->next;
+		delete temp;
+		temp = nullptr;
 	}
 	res = head;
 	if (head == nullptr) { return res; }
@@ -34,6 +37,7 @@ ListNode* removeElements(ListNode* head, int val) {
 			ListNode* temp = head->next;
 			head->next = head->next->next;
 			delete temp;
+			temp = nullptr;
 		}
 		else
 		{
@@ -56,6 +60,7 @@ ListNode* removeElements2(ListNode* head, int val) {
 			ListNode* temp = cur->next;
 			cur->next = cur->next->next;
 			delete temp;
+			temp = nullptr;
 		}
 		else
 		{
@@ -64,5 +69,6 @@ ListNode* removeElements2(ListNode* head, int val) {
 	}
 	head = dummyHead->next;
 	delete dummyHead;
+	dummyHead = nullptr;
 	return head;
 }
