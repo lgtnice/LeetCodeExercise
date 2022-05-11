@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "707设计链表", "707设�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "206反转链表", "206反转链表\206反转链表.vcxproj", "{9A6D2E73-9DE4-4A72-BC55-4A7B92E8311F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "24两两交换链表中的节点", "24两两交换链表中的节点\24两两交换链表中的节点.vcxproj", "{C4CA63EC-251F-4067-8084-594E6DA91EBA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,18 @@ Global
 		{9A6D2E73-9DE4-4A72-BC55-4A7B92E8311F}.Release|x64.Build.0 = Release|x64
 		{9A6D2E73-9DE4-4A72-BC55-4A7B92E8311F}.Release|x86.ActiveCfg = Release|Win32
 		{9A6D2E73-9DE4-4A72-BC55-4A7B92E8311F}.Release|x86.Build.0 = Release|Win32
+		{C4CA63EC-251F-4067-8084-594E6DA91EBA}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{C4CA63EC-251F-4067-8084-594E6DA91EBA}.Debug|Any CPU.Build.0 = Debug|x64
+		{C4CA63EC-251F-4067-8084-594E6DA91EBA}.Debug|x64.ActiveCfg = Debug|x64
+		{C4CA63EC-251F-4067-8084-594E6DA91EBA}.Debug|x64.Build.0 = Debug|x64
+		{C4CA63EC-251F-4067-8084-594E6DA91EBA}.Debug|x86.ActiveCfg = Debug|Win32
+		{C4CA63EC-251F-4067-8084-594E6DA91EBA}.Debug|x86.Build.0 = Debug|Win32
+		{C4CA63EC-251F-4067-8084-594E6DA91EBA}.Release|Any CPU.ActiveCfg = Release|x64
+		{C4CA63EC-251F-4067-8084-594E6DA91EBA}.Release|Any CPU.Build.0 = Release|x64
+		{C4CA63EC-251F-4067-8084-594E6DA91EBA}.Release|x64.ActiveCfg = Release|x64
+		{C4CA63EC-251F-4067-8084-594E6DA91EBA}.Release|x64.Build.0 = Release|x64
+		{C4CA63EC-251F-4067-8084-594E6DA91EBA}.Release|x86.ActiveCfg = Release|Win32
+		{C4CA63EC-251F-4067-8084-594E6DA91EBA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
