@@ -128,7 +128,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="1002查找常用字符.cpp" />
+    <ClCompile Include="1两数之和_map.cpp" />
+    <ClCompile Include="202快乐数.cpp" />
     <ClCompile Include="242有效的字母异位词.cpp" />
+    <ClCompile Include="349两个数组的交集.cpp" />
+    <ClCompile Include="454四数相加.cpp" />
+    <ClCompile Include="454四数相加_1.cpp" />
     <ClCompile Include="哈希表.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

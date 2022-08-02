@@ -24,5 +24,20 @@
     <ClCompile Include="1002查找常用字符.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="349两个数组的交集.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="202快乐数.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="1两数之和_map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="454四数相加.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="454四数相加_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
