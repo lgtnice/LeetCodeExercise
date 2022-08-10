@@ -39,5 +39,14 @@
     <ClCompile Include="454四数相加_1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="383赎金信.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="15三数之和.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="18四数之和.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

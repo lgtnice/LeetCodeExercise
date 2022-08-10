@@ -6,18 +6,14 @@
 
 using namespace std;
 
-int fourSumCount(vector<int>& nums1, vector<int>& nums2, vector<int>& nums3, vector<int>& nums4);
-int fourSumCount2(vector<int>& nums1, vector<int>& nums2, vector<int>& nums3, vector<int>& nums4);
+
 
 int main()
 {
-    vector<int> v1{1, 2, -2};
-    vector<int> v2{3, 4, 0};
-    vector<int> v3{1, 2, 7};
-    vector<int> v4{6, 1, 5};
-    int res = fourSumCount2(v1, v2, v3, v4);
-    cout << res << endl;
-    std::cout << "Hello World!" << endl;
+    vector<vector<int>> fourSum(vector<int>&nums, int target);
+    vector<int> vv{ 1,0,-1,0,-2,2 };
+    auto res = fourSum(vv, 0);
+    cout << endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
