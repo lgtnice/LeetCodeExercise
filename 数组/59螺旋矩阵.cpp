@@ -19,6 +19,8 @@ vector<vector<int>> generateMatrix(int n) {
 	int value = 1;
 	int i = 0;
 	int j = 0;
+
+	//循环原则：在进行一个循环的时候，去寻找循环背后一定遵循的原则
 	while (true)
 	{
 		res[i][j] = value++;
