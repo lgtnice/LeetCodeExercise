@@ -26,7 +26,7 @@ public:
             }
             case ')':
             {
-                if (st.top() != '(')
+                if (st.empty() || st.top() != '(')
                 {
                     res = false;
                 }
@@ -43,7 +43,7 @@ public:
             }
             case '}':
             {
-                if (st.top() != '{')
+                if (st.empty() || st.top() != '{')
                 {
                     res = false;
                 }
@@ -60,7 +60,7 @@ public:
             }
             case ']':
             {
-                if (st.top() != '[')
+                if (st.empty() || st.top() != '[')
                 {
                     res = false;
                 }

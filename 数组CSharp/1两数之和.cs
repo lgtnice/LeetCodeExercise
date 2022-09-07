@@ -4,16 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _1两数之和
+namespace 数组CSharp
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-        }
-    }
-
-    public class Solution
+    internal class _1两数之和
     {
         public int[] TwoSum(int[] nums, int target)
         {
@@ -32,5 +25,4 @@ namespace _1两数之和
             return new int[] { a, b };
         }
     }
-
 }

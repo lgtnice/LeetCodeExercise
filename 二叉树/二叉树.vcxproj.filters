@@ -15,28 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="栈与队列.cpp">
+    <ClCompile Include="二叉树.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="232用栈实现队列.cpp">
+    <ClCompile Include="144二叉树的前序遍历.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="20有效的括号.cpp">
+    <ClCompile Include="145二叉树的后序遍历.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="225用队列实现栈.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="1047删除字符串中的所有相邻重复项.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="150逆波兰表达式求值.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="239滑动窗口最大值.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="347前 K 个高频元素.cpp">
+    <ClCompile Include="94二叉树的中序遍历.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

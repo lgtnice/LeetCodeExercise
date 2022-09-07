@@ -4,14 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _2两数相加
+namespace 链表CSharp
 {
-    class Program
+    internal class _2两数相加
     {
-        static void Main(string[] args)
-        {
-        }
-
         public ListNode AddTwoNumbers(ListNode l1, ListNode l2)
         {
             ListNode res = null;

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FAE9D8C5-BC51-47FA-83BB-11F56B3A343F}</ProjectGuid>
+    <ProjectGuid>{2F3C4A67-28DA-45C2-B173-BC25FC5DCD61}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_2两数相加</RootNamespace>
-    <AssemblyName>2两数相加</AssemblyName>
+    <RootNamespace>链表CSharp</RootNamespace>
+    <AssemblyName>链表CSharp</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="2两数相加.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

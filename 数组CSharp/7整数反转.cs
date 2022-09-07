@@ -4,17 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _7整数反转
+namespace 数组CSharp
 {
-    class Program
+    internal class _7整数反转
     {
-        static void Main(string[] args)
-        {
-        }
-    }
 
-    public class Solution
-    {
         public int Reverse(int x)
         {
             int res = 0;
@@ -49,6 +43,6 @@ namespace _7整数反转
             }
             return 0;
         }
-    }
 
+    }
 }

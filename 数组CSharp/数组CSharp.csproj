@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2D473DF9-80F8-4A9D-AB72-CEDA73F844E0}</ProjectGuid>
+    <ProjectGuid>{FA41895E-1B6A-46D6-AD18-6341398343A7}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_1两数之和</RootNamespace>
-    <AssemblyName>1两数之和</AssemblyName>
+    <RootNamespace>数组CSharp</RootNamespace>
+    <AssemblyName>数组CSharp</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -42,6 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="1两数之和.cs" />
+    <Compile Include="7整数反转.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
