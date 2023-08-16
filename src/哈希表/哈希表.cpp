@@ -7,12 +7,12 @@
 using namespace std;
 
 
-
 int main()
 {
     vector<vector<int>> fourSum(vector<int>&nums, int target);
     vector<int> vv{ 1,0,-1,0,-2,2 };
     auto res = fourSum(vv, 0);
+    cout << res[0][0];
     cout << endl;
 }
 
